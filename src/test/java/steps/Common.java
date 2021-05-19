@@ -63,7 +63,7 @@ public class Common {
                 options.addArguments("headless");
             }
 
-            System.setProperty(WEBDRIVERCHROME,strDriverLoc + "/chromedriver");
+            System.setProperty(WEBDRIVERCHROME,strDriverLoc + "/chromedriver.exe");
 
             wdriver = new ChromeDriver(options);
             wdriver.manage().window().maximize();
