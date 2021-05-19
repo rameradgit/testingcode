@@ -10,7 +10,7 @@ public class pgLogin {
     private WebDriver driver;
 
     private static final By INPUT_USERNAME = By.name("name");
-    private static final By INPUT_PASSWORD = By.name("passwor");
+    private static final By INPUT_PASSWORD = By.name("password");
     private static final By BUTTON_SIGNIN = By.xpath("//input[@type='submit']");
     private static final By MSG_SUCCESS = By.xpath("//h1[contains(text(),'Login Success')]");
     private static final By MSG_FAILURE = By.id("error");
